@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20261030b">
+  <link rel="stylesheet" href="css/style.css?v=20261103">
   <!-- aplica o tema salvo antes de pintar a página (evita piscar) -->
   <script>try { var t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
 </head>
@@ -45,6 +45,7 @@
       <symbol id="i-capelo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></symbol>
       <symbol id="i-selo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></symbol>
       <symbol id="i-escudo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5"/><path d="M12 11.5v6M9.5 15l2.5 2.5 2.5-2.5"/></symbol>
       <symbol id="i-globo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5a14.5 14.5 0 0 1 0 19M12 2.5a14.5 14.5 0 0 0 0 19"/></symbol>
     </defs>
   </svg>
@@ -60,6 +61,7 @@
         <a href="#contato" class="flip">Contato</a>
       </nav>
       <div class="nav-dir">
+        <a class="nav-cv" href="Curriculo-Bruno-Santopietro-Machado.pdf" target="_blank" rel="noopener" aria-label="Currículo em PDF (abre em nova aba)" title="Currículo em PDF"><svg class="i"><use href="#i-doc"/></svg><span class="flip">Currículo</span></a>
         <span class="nav-social" id="nav-social"></span>
         <button class="ico" id="theme-btn" type="button" aria-label="Alternar tema claro e escuro"><svg class="i"><use href="#i-lua"/></svg></button>
         <button class="ico nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links"><svg class="i"><use href="#i-menu"/></svg></button>

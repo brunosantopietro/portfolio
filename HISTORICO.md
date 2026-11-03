@@ -38,6 +38,7 @@ Projetos/Portfólio/
 - **WhatsApp:** os botões abrem conversa com o número do Bruno (decisão de 30/10/2026). O número fica visível no link.
 - **Barras de nível só para idiomas.** Não há percentuais inventados para as competências.
 - **Preferência de design:** paletas simples, com azul-escuro como contraste. De um site de referência, usar o **layout e as interações**, não as cores.
+- **Currículo em PDF (03/11/2026):** botão "Currículo" no cabeçalho abre `Curriculo-Bruno-Santopietro-Machado.pdf` (na raiz) em nova aba. Para atualizar, substitua o arquivo mantendo o mesmo nome.
 - **CR:** 8,0.
 - **Certificados com imagem:** CPA, ANCORD (ago/2026), Pré-Mestrado em IA (Magno Maciel e Faculdade HUB, mar/2026) e UPenn IAPS. Ainda falta o ano da CPA.
 

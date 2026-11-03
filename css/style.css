@@ -176,6 +176,16 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; line-height: 1.1; 
 .nav-dir { display: flex; align-items: center; gap: 2px; }
 .nav-social { display: flex; gap: 2px; padding-right: 6px; margin-right: 4px; border-right: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
 .nav-toggle { display: none; }
+/* botão do currículo em PDF: pílula com contorno, mesma tipografia do menu */
+.nav-cv {
+  display: inline-flex; align-items: center; gap: 8px; height: 34px; padding: 0 14px; margin-right: 10px;
+  border: 1px solid color-mix(in srgb, currentColor 40%, transparent); border-radius: 999px;
+  font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap;
+  transition: background 0.25s, color 0.25s, border-color 0.25s;
+}
+.nav-cv .i { width: 15px; height: 15px; }
+.nav-cv:hover { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.nav.na-capa .nav-cv:hover { background: #fff; border-color: #fff; color: var(--navy); }
 
 /* ---------- capa ---------- */
 .capa { position: relative; height: clamp(190px, 25vw, 320px); background: var(--capa); overflow: hidden; }
@@ -623,6 +633,7 @@ body.lb-aberto { overflow: hidden; }
 @media (max-width: 600px) {
   :root { --pad: 16px; --nav-h: 58px; }
   .nav-social { display: none; }
+  .nav-cv { height: 32px; padding: 0 12px; margin-right: 4px; }
   .hero-id { flex-direction: column; align-items: flex-start; gap: 14px; }
   .hero-nome { padding-top: 0; align-self: stretch; }
   .fatos { grid-template-columns: 1fr; }
